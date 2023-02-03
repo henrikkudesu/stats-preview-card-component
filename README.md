@@ -30,13 +30,13 @@ Users should be able to:
 <p align="center"><img src="./screenshots/desktop-ver.png"></p>
 
 #### Mobile Version
-<p align="center"><img src="./screenshots/mobile-ver.png"></p>
+<p align="center" style="height: auto;"><img src="./screenshots/mobile-ver.png"></p>
 
 
 ### Links
 
-- Solution URL: [Code on Github](https://your-solution-url.com)
-- Live Site URL: [Github Pages Live URL](https://your-live-site-url.com)
+- Solution URL: [Code on Github](https://github.com/henrikkudesu/stats-preview-card-component)
+- Live Site URL: [Github Pages Live URL](https://henrikkudesu.github.io/stats-preview-card-component/)
 
 ## My process
 First, I structured the HTML, which I believe is correct and semantic. Then, I went to CSS and first made the desktop version. After adjusting the measurement values, I made the media queries to make it responsive. The CSS code is a complete mess and I still need to add an overlay color over the image, which I haven't been able to do so far. 🤷‍♂️
