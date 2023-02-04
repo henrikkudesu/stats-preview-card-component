@@ -30,7 +30,7 @@ Users should be able to:
 <p align="center"><img src="./screenshots/desktop-ver.png"></p>
 
 #### Mobile Version
-<p align="center" style="height: 390px; height: 600px"><img src="./screenshots/mobile-ver.png"></p>
+<p align="center" style="height: 600px; height: 390px"><img src="./screenshots/mobile-ver.png"></p>
 
 
 ### Links
