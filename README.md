@@ -30,7 +30,7 @@ Users should be able to:
 <p align="center"><img src="./screenshots/desktop-ver.png"></p>
 
 #### Mobile Version
-<p align="center" style="height: auto;"><img src="./screenshots/mobile-ver.png"></p>
+<p align="center" style="height: 390px; height: 600px"><img src="./screenshots/mobile-ver.png"></p>
 
 
 ### Links
@@ -50,15 +50,16 @@ First, I structured the HTML, which I believe is correct and semantic. Then, I w
 
 ### What I learned
 
-Never start coding the desktop version first.
+Never start coding the desktop version first. And i learned how to use mix-blend-mode, which is very useful in some cases.
 
 ### Continued development
 
-I want to improve the CSS and finish the project, adding an overlay color over the image, which is what's missing. 
+I want to improve my CSS coding and finish the project the right way.
 
 ### Useful resources
 
-- [ChatGPT](https://chat.openai.com) - It helped me a lot. I don't need to waste time searching on Google or making a post on StackOverflow for possible solution for my problems. It is a great ally for studying. 
+- [ChatGPT](https://chat.openai.com) - It helped me a lot. I don't need to waste time searching on Google or making a post on StackOverflow for possible solution for my problems. It is a great ally for studying.
+- [W3Schools](https://www.w3schools.com) - W3Schools is a website optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding.
 
 ## Author
 
@@ -69,6 +70,6 @@ I want to improve the CSS and finish the project, adding an overlay color over t
 
 ## Acknowledgments
 
-If you want to help me, just fork it and commit it. Feel free to do so.
+Thanks to [Adán Estévez](https://www.frontendmentor.io/profile/rafdidact) for helping me improve my html code and [chicaboom-73](https://www.frontendmentor.io/profile/chicaboom-73) for suggesting me to use the **mix-blend-mode** property to apply an overcolor to the image so that it finally looks the same as the challenge project.
 
 

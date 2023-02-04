@@ -21,6 +21,7 @@
     --clr-neutral-slightly-transparent-white-h1: hsla(0, 0%, 100%, 0.6);
 }
 
+/* general settings */
 * {
     font-size: 15px;
     margin: 0px;
@@ -50,46 +51,42 @@ p {
     color: var(--clr-neutral-slightly-transparent-white-p);
 }
 
+/* stats card */
 .stats-card {
     display: flex;
-    /*align-items: center;*/
     width: 80%;
     height: 360px;
-    /*margin: 30px 18px 30px 18px;*/
     background-color: var(--clr-primary-dark-desaturated-blue);
     border-radius: 7px;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* img div */
 .img-box {
     order: 2;
     width: 86%;
     height: 100%;
-    padding-left: 1%;
-}
-
-.img-box::before {
-    content: "";
-    background-color: var(--clr-primary-soft-violet);
-    height: 100%;
-    width: 100%;
-}
-
-.img-box picture {
-    width: 100%;
-    height: 100%;
-}
-
-.img-box img {
-    width: 100%;
-    height: 100%;
+    padding-left: 0;
+    background-color: hsla(277, 64%, 65%, 0.900);
     border-top-left-radius: 0px;
     border-top-right-radius: 7px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 7px;
 }
 
+.img-box picture {
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+}
+
+/* stats div */
 .stats-box {
     color: var(--clr-neutral-slightly-transparent-white-p);
     font-family: var(--ff-lexend-deca);
@@ -127,6 +124,7 @@ p {
     font-weight: var(--fw-bold);
 }
 
+/* main box */
 .main-box {
     display: flex;
     flex-direction: column;
@@ -200,6 +198,10 @@ p {
         margin-top: 0;
         padding: 0;
         text-align: center;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
     }
 
     .img-box picture {
@@ -210,10 +212,6 @@ p {
     .img-box img {
         height: 100%;
         width: 100%;
-        border-top-right-radius: 7px;
-        border-top-left-radius: 7px;
-        border-bottom-left-radius: 0px;
-        border-bottom-right-radius: 0px;
     }
 
     /* main box */
@@ -224,7 +222,6 @@ p {
         margin: 0;
     }
 
-    /* heading box */
     .heading-box {
         height: 20%;
         width: 100%;
@@ -239,7 +236,6 @@ p {
         margin: 0;
     }
 
-    /* paragraph box */
     .paragraph-box {
         margin-left: auto;
         margin-right: auto;
@@ -256,7 +252,6 @@ p {
         padding: 0;
     }
 
-    /* stats box */
     .stats-box {
         margin-left: auto;
         margin-right: auto;
@@ -285,9 +280,3 @@ p {
         margin: 0;
     }
 }
-
-
-
-
-/* Desktop and Mobile widths */
-/* Mobile: 375px  ||  Desktop: 1440px */
